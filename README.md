@@ -20,8 +20,7 @@ Since the goal of this sample is to predict automobile prices, and because the l
 
 Use the Split Data module to randomly divide the input data so that the training dataset contains 80% of the original data and the testing dataset contains 20% of the original data.
 # Test, evaluate, and compare
-Split the dataset and use different datasets to train and test the model to make the evaluation of the model more objective.
-After the model is trained, you can use the Score Model and Evaluate Model modules to generate predicted results and evaluate the models.and compared with diferent Regression algorithms.
+Split the dataset and use different datasets to train and test the model to make the evaluation of the model more objective.After the model is trained, you can use the Score Model and Evaluate Model modules to generate predicted results and evaluate the models.and compared with diferent Regression algorithms.
 
 It is divided into four parts:
 
@@ -56,8 +55,8 @@ Model Review and Evaluation
 
 # Importing the Modules:
 
- import pandas as pd
- import numpy as np
- import matplotlib.pyplot as plt
- import seaborn as sns
+ -import pandas as pd
+ -import numpy as np
+ -import matplotlib.pyplot as plt
+ -import seaborn as sns
 
