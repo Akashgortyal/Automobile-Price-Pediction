@@ -60,3 +60,27 @@ Model Review and Evaluation
  3) import matplotlib.pyplot as plt
  4) import seaborn as sns
 
+# Data Visulization ans Anaysis
+
+1) symboling : Its assigned insurance risk rating,A value of +3 indicates that the auto is risky,-3 that it is probably pretty safe.
+![symb](https://user-images.githubusercontent.com/95012573/146322800-449ea447-e669-4188-8e57-1e0b5d6c2e94.PNG)
+
+2)body_style : Hardtop and convertible are the most expensive whereas hatchbacks are the cheapest.
+![car body](https://user-images.githubusercontent.com/95012573/146322950-9cbe190b-508a-4d9a-b74c-48a9f47e4d29.PNG)
+
+3)fule_type- diesel engine is used more compare to gas engine. 
+![fule](https://user-images.githubusercontent.com/95012573/146323008-2eda81c5-de1b-47d2-9f96-d6507039fcfa.PNG)
+
+4)make: toyota has highest number of vehicales compare to all other compnays . Toyota, a Japanese company has the most no of models.
+![make](https://user-images.githubusercontent.com/95012573/146323064-3723bdee-221a-41bc-a57a-891c13efc5c6.PNG)
+
+5) according to automobile the num-of-cylinders and engine size is described. For example, according to the attribute, "four" has 156.0 counts, the mean value of this column is 112.980769 ,maximum value is 156.
+![g](https://user-images.githubusercontent.com/95012573/146323103-4545d8c6-9f5e-423f-beb2-cd14165be2f1.PNG)
+
+# Conclusion
+The Linear regression model is compared with other regression model and it gives good result for linear regression model.
+Comparing these three models, we conclude that the MLR model is the best model to be able to predict price from our dataset. This result makes sense, since we have 27 variables in total, and we know that more than one of those variables are potential predictors of the final car price.
+
+
+
+
