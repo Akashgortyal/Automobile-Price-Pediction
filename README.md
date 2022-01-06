@@ -1,7 +1,6 @@
 # Automobile-Price-Pediction
-Learn how to build a machine learning regression model without writing a single line of code using the designer.
 
-This pipeline trains a linear regressor to predict a car's price based on technical features such as make, model, horsepower, and size. Because you're trying to answer the question "How much?" this is called a regression problem. However, you can apply the same fundamental steps in this example to tackle any type of machine learning problem whether it be regression, classification, clustering, and so on.
+This pipeline trains a linear regressor to predict a car's price based on technical features such as make, model, horsepower, and size etc. Because we are trying to answer the question "How much?" this is called a regression problem. However, you can apply the same fundamental steps in this example to tackle any type of machine learning problem whether it be regression, classification, clustering, and so on.
 
 The fundamental steps of a training machine learning model are:
 
@@ -14,13 +13,13 @@ This sample uses the Automobile price data (Raw) dataset, which is from DATAMITE
 # Preprocessing the data
 The main data preparation tasks include data cleaning, integration, transformation.encoding the categorical features , Use the Select Columns in Dataset module to exclude normalized-losses that have many missing values. Then use Clean Missing Data to remove the rows that have missing values. This helps to create a clean set of training data.
 # Training the model
-Machine learning problems vary. Common machine learning tasks include classification, clustering, regression, and recommender systems, each of which might require a different algorithm. Your choice of algorithm often depends on the requirements of the use case. After you pick an algorithm, you need to tune its parameters to train a more accurate model. You then need to evaluate all models based on metrics like accuracy, intelligibility, and efficiency.
+Machine learning problems vary. Common machine learning tasks include classification, clustering, regression, and recommender systems, each of which might require a different algorithm. Your choice of algorithm often depends on the requirements of the use case. After  pick an algorithm, we need to tune its parameters to train a more accurate model.  then we need to evaluate all models based on metrics like accuracy.
 
 Since the goal of this sample is to predict automobile prices, and because the label column (price) is continuous data, a regression model can be a good choice. We use Linear Regression for this pipeline.
 
 Use the Split Data module to randomly divide the input data so that the training dataset contains 80% of the original data and the testing dataset contains 20% of the original data.
 # Test, evaluate, and compare
-Split the dataset and use different datasets to train and test the model to make the evaluation of the model more objective.After the model is trained, you can use the Score Model and Evaluate Model modules to generate predicted results and evaluate the models.and compared with diferent Regression algorithms.
+Split the dataset and use different datasets to train and test the model to make the evaluation of the model more objective.After the model is trained, you can use the Score Model and Evaluate Model modules to generate predicted results and evaluate the models and compared with diferent Regression algorithms.
 
 It is divided into four parts:
 
